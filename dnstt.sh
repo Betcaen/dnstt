@@ -19,8 +19,8 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # Global variables
-DNSTT_BASE_URL="https://beecube31.ru"
-SCRIPT_URL="https://raw.githubusercontent.com/bugfloyd/dnstt-deploy/main/dnstt-deploy.sh"
+DNSTT_BASE_URL="https://raw.githubusercontent.com/Betcaen/dnstt/refs/heads/main"
+SCRIPT_URL="https://raw.githubusercontent.com/Betcaen/dnstt/refs/heads/main/dnstt.sh"
 INSTALL_DIR="/usr/local/bin"
 CONFIG_DIR="/etc/dnstt"
 SYSTEMD_DIR="/etc/systemd/system"
