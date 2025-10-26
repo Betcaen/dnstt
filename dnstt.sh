@@ -668,7 +668,7 @@ download_dnstt_server() {
     print_status "Downloading dnstt-server..."
 
     # Download the binary
-    curl -L -o "/tmp/$filename" "${DNSTT_BASE_URL}/$filename"
+    curl -L -o "/tmp/$filename" "https://github.com/Betcaen/dnstt/raw/refs/heads/main/dnstt-server-linux-amd64"
 
     # Verify checksums
     print_status "Verifying file integrity..."
